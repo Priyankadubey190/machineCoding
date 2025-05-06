@@ -1,0 +1,14 @@
+.profileForm {
+  width: 100%;
+}
+.profileForm > div {
+  display: flex;
+}
+.profileForm > div > div:first-child {
+  width: 20%;
+}
+.profileForm > div > div > input {
+  font-size: 14px;
+  font-weight: 600;
+  width: 200px;
+}

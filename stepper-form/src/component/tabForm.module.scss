@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+.tabContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.tab {
+  padding: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.tabContent {
+  padding: 20px;
+  height: 200px;
+  width: 100%;
+  border: 2px solid white;
+}
