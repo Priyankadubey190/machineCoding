@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button {
+  background-color: #f0f0f0;
+  color: black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 2px;
+}
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+.active {
+  background-color: #0056b3;
+  color: white;
+}
+
+.disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}

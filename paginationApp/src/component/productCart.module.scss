@@ -1,0 +1,30 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 8px;
+  width: calc(25% - 32px);
+  box-sizing: border-box;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+}
+.cardTitle {
+  text-align: left;
+}
