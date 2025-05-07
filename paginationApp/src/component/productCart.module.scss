@@ -12,8 +12,15 @@ h1 {
   border-radius: 8px;
   padding: 5px;
   margin: 8px;
-  width: calc(25% - 32px);
+  width: calc(25% - 19px);
   box-sizing: border-box;
+  background-color: #ccc;
+  color: black;
+}
+.card:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  box-shadow: 2px 4px 8px red;
 }
 .card img {
   max-width: 100%;
