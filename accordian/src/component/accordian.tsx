@@ -21,7 +21,9 @@ const Accordian = () => {
               >
                 {item.title}
               </button>
-              <button onClick={() => handleToggle(item.id)}>+</button>
+              <button onClick={() => handleToggle(item.id)}>
+                {activeId === item.id ? "-" : "+"}
+              </button>
             </h2>
             {activeId === item.id && (
               <div
